@@ -33,15 +33,15 @@
     ```
 3. Скомпилируйте проект:
     ```sh
-    g++ -o main HashT_BinTree.cpp HashT.cpp Item.cpp Tree.cpp
+    g++ -o HashT_BinTree HashT_BinTree.cpp HashM.cpp Item.cpp Tree.cpp
     ```
 4. Запустите программу, указав путь к файлу с данными:
     ```sh
-    ./main <путь к файлу>
+    ./HashT_BinTree <путь к файлу>
     ```
     Например:
     ```sh
-    ./main data.txt
+    ./HashT_BinTree data.txt
     ```
 
 ### Пример использования
@@ -56,8 +56,8 @@
     ```
 2. Скомпилируйте и запустите программу:
     ```sh
-    g++ -o main main.cpp HashM.cpp Item.cpp Tree.cpp
-    ./main data.txt
+    g++ -o HashT_BinTree HashT_BinTree.cpp HashM.cpp Item.cpp Tree.cpp
+    ./HashT_BinTree data.txt
     ```
 3. Следуйте инструкциям в меню:
     ```
